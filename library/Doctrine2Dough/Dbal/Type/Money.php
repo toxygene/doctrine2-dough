@@ -6,6 +6,8 @@
  * @package Doctrine2Dough\Dbal\Type\Money
  */
 
+namespace Doctrine2Dough\Dbal\Type;
+
 use \Doctrine\DBAL\Types\ConversionException;
 use \Doctrine\DBAL\Types\DecimalType;
 use \Doctrine\DBAL\Types\Type;
@@ -17,7 +19,7 @@ use \Dough\Money\Money;
  *
  * @package Doctrine2Dough\Dbal\Type\Money
  */
-class Doctrine2Dough_DBAL_Type_Money extends Type
+class Money extends Type
 {
 
     /**
